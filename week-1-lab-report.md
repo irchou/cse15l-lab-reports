@@ -19,11 +19,27 @@ The working directory when the command was ran is /home/lecture1.
 After running the cd command with the argument Hello.java, an error message was printed stating that Hello.java is not a directory. This is the resulting output because the directory cannot be set to be inside a file, so trying to do so will result in an error. 
 
 ## Command `ls`
-**Command with no arguments**
-**Command with a path to a directory**
-**Command with a path to a file**
+**Command with no arguments**  
+![Image](ls with no args.png)  
+Th
+
+**Command with a path to a directory**  
+![Image](ls with directory.png)  
+Th
+
+**Command with a path to a file**  
+![Image](ls with file.png)  
+Th
 
 ## Command `cat`
-**Command with no arguments**
-**Command with a path to a directory**
-**Command with a path to a file**
+**Command with no arguments**  
+![Image](cat with no args.png)  
+Th
+
+**Command with a path to a directory**  
+![Image](cat with directory.png)  
+Th
+
+**Command with a path to a file**  
+![Image](cat with file.png)  
+Th
