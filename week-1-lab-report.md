@@ -2,10 +2,15 @@
 
 ## Command `cd`
 **Command with no arguments**
+
 ![Image](cd with no args.png)
+
 **Command with a path to a directory**
+
 ![Image](cd with directory.png)
+
 **Command with a path to a file**
+
 ![Image](cd with file.png)
 
 ## Command `ls`
