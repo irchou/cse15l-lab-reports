@@ -1,9 +1,8 @@
 # Lab Report 1
 
 ## Command `cd`
-**Command with no arguments**
-
-![Image](cd with no args.png)
+**Command with no arguments**  
+![Image](cd with no args.png)  
 
 **Command with a path to a directory**
 
