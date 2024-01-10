@@ -39,12 +39,16 @@ After running the ls command with a file,
 ## Command `cat`
 **Command with no arguments**  
 ![Image](cat with no args.png)  
-The working directory when the command was ran is
+The working directory when the command was ran is /home/lecture1.
+A
 
 **Command with a path to a directory**  
 ![Image](cat with directory.png)  
-The working directory when the command was ran is
+The working directory when the command was ran is /home.
+After running the ls command with a directory, it prints an error message stating that the given argument is a directory. Since lecture1/messages does not lead to a file, cat cannot print the contents of it and thus the output is an error.
 
 **Command with a path to a file**  
 ![Image](cat with file.png)  
-The working directory when the command was ran is
+The working directory when the command was ran is /home/lecture1/messages.
+The working directory contains a file called en-us.txt that contains "Hello World!". When the cat command is called on a file, it prints out the contents of that file. 
+The output was not an error.
