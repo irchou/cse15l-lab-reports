@@ -34,7 +34,7 @@ The output was not an error.
 **Command with a path to a file**  
 ![Image](ls with file.png)  
 The working directory when the command was ran is /home/lecture1.
-After running the ls command with a file, it prints the file argument entered. 
+After running the ls command with a file, it prints the argument that was entered. Since Hello.java was the argument given in this case, the command outputs Hello.java.
 The output was not an error.
 
 ## Command `cat`
