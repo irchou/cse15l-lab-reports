@@ -22,7 +22,7 @@ After running the cd command with the argument Hello.java, an error message was 
 **Command with no arguments**  
 ![Image](ls with no args.png)  
 The working directory when the command was ran is /home/lecture1.
-In this case, the working directory contained a folder called messages, and files called Hello.class, Hello.java, and README. After running the ls command with no arguments, a list of subitems in the working directory is printed. 
+In this case, the working directory contained a folder called messages, and files called Hello.class, Hello.java, and README. After running the ls command with no arguments, a list of items in the working directory is printed. 
 The output was not an error.
 
 **Command with a path to a directory**  
@@ -34,13 +34,15 @@ The output was not an error.
 **Command with a path to a file**  
 ![Image](ls with file.png)  
 The working directory when the command was ran is /home/lecture1.
-After running the ls command with a file, 
+After running the ls command with a file, it prints the file argument entered. 
+The output was not an error.
 
 ## Command `cat`
 **Command with no arguments**  
 ![Image](cat with no args.png)  
 The working directory when the command was ran is /home/lecture1.
-A
+After running the cat command with no arguments, nothing was immediately outputed. However, if something is then typed into the terminal, it gets printed out again as seen from the duplicate lines.
+The resulting output was not an error.
 
 **Command with a path to a directory**  
 ![Image](cat with directory.png)  
