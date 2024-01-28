@@ -43,3 +43,7 @@ class ChatServer {
 **Using `/add-message` examples**
 ![Image](/images/ChatLog1.png) 
 ![Image](/images/ChatLog2.png) 
+
+## Part 2
+
+## Part 3
