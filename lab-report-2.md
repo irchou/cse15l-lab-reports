@@ -61,3 +61,4 @@ The `handleRequest()` method in the code is called. The `handleRequest()` method
 ![Image](/images/ssh login.png) 
 
 ## Part 3
+Something I learned in lab in the last two weeks is how to start a web server in Java. I didn't know before that Java had built-in classes to create and run web servers. I also learned that this could be done on one's local computer or on a remote computer. 
