@@ -49,12 +49,15 @@ The `handleRequest()` method in the code is called. The `handleRequest()` method
 
 ## Part 2
 **Path to private key**
+
 ![Image](/images/private key.png) 
 
 **Path to public key**
+
 ![Image](/images/public key.png) 
 
 **Logging into `ieng` account**
+
 ![Image](/images/ssh login.png) 
 
 ## Part 3
