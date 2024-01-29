@@ -42,7 +42,10 @@ class ChatServer {
 
 **Using `/add-message` examples**
 ![Image](/images/ChatLog1.png) 
+The `handleRequest()` method in the code is called. The `handleRequest()` method takes in an URI as an argument, which it uses to get the `/add-message` query in the url. The `handleRequest()` method also uses the relevant `messagesHistory` String field. The `messagesHistory` field gets changed to store the newly added message from the url query.
+
 ![Image](/images/ChatLog2.png) 
+The `handleRequest()` method in the code is called. The `handleRequest()` method takes in an URI as an argument, which it uses to get the `/add-message` query in the url. The `handleRequest()` method also uses the relevant `messagesHistory` String field. The `messagesHistory` field gets changed to store the newly added message from the url query.
 
 ## Part 2
 
