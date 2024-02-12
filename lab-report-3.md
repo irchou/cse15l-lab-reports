@@ -14,7 +14,7 @@ insert code block here
 **Symptom**
 ![Image](/images/ChatLog2.png) 
 
-**Bug**
+**Bug**  
 Before
 ```
 static List<String> merge(List<String> list1, List<String> list2) {
