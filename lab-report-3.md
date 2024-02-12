@@ -1,4 +1,4 @@
-# Lab Report 2
+# Lab Report 3
 
 ## Part 1 - Bugs
 **Using `/add-message` examples**
