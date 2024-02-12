@@ -26,7 +26,7 @@ public void testReversedPass() {
 ```
 
 **The Symptom**
-![Image](/images/ChatLog2.png) 
+![Image](/images/ArrayExamplesReversedBugSymptom.png) 
 
 **The Bug**  
 Before
