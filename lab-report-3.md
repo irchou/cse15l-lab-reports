@@ -110,7 +110,7 @@ technical/government/Alcohol_Problems/Session4-PDF.txt:strategies that are assoc
 ```
 The above command finds all lines containing the phrase "binge drinking" (given as the first argument) regardless of capitalization in all text files of the `/technical/government/Alcohol_Problems` directory (given as the second argument). As the phrase being searched for is longer than it was in the previous example, using `-i` allows us to not worry about even more variation in capitalization while searching for a word or phrase in a set of files.
 
-**- option**
+**-C option**
 ```
 $ grep -C 5 "binge drinking" technical/government/Alcohol_Problems/*.txt
 technical/government/Alcohol_Problems/Session2-PDF.txt-point." A cut point with a high sensitivity and specificity should
