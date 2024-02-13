@@ -51,10 +51,12 @@ The `handleRequest()` method in the code is called. The `handleRequest()` method
 **Path to private key**
 
 ![Image](/images/private key.png) 
+The absolute path to the private key is `/c/Users/irisc/.ssh/id_rsa.pub`.
 
 **Path to public key**
 
 ![Image](/images/public key.png) 
+The absolute path to the public key is `/home/linux/ieng6/oce/5o/irchou/.ssh/authorized_keys`.
 
 **Logging into `ieng` account**
 
