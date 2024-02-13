@@ -180,15 +180,24 @@ $ grep -C 3 "deubiquitinating enzymes" technical/plos/journal.pbio.0020013.txt
 ```
 The above command locates lines containing "deubiquitinating enzymes" in the text file `/technical/plos/journal.pbio.0020013.txt`, then prints out each line along with 3 lines before and after it, grouping sections into one if they overlap. This can be useful for better understanding how a word or phrase fits into the larger picture a file, instead of being limited to seeing just the line the word or phrase is found on.
 
-**- option**
+**-l option**
 ```
-code block of example
+$ grep -l "health" technical/biomed/gb*.txt
+technical/biomed/gb-2003-4-1-r7.txt
+technical/biomed/gb-2003-4-3-r17.txt
+technical/biomed/gb-2003-4-4-r24.txt
+technical/biomed/gb-2003-4-7-r46.txt
 ```
-Explanation for above and why it's useful
+The above command prints out the names of all the "gb" text files located in the directory `/technical/biomed` that exactly contains the word "health". This can be useful when you're just looking for the files in a set of files that contain a specific word or phrase, and don't need to the see the actual line with the word or phrase.
+
 ```
-code block of example2
+$ grep -l "legal rights" technical/government/Media/*.txt
+technical/government/Media/Too_Crucial_to_Take_Cut.txt
+technical/government/Media/Unusual_Woodburn.txt
+technical/government/Media/Weak_economy.txt
 ```
-Explanation for above and why it's useful
+The above command prints out the names of all the text files located in the directory `/technical/government/Media` that exactly contains the phrase "legal rights". This can be useful for searching for files that contain a word or phrase without worrying about the lines that the word or phrase is located on.
 
 **Source for finding grep options**
+
 Source: [https://www.geeksforgeeks.org/grep-command-in-unixlinux/](https://www.geeksforgeeks.org/grep-command-in-unixlinux/)
