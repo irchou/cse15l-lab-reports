@@ -1,6 +1,6 @@
 # Lab Report 4
 
-## Part 1 - Bugs
+## Step 4
 **Failure-inducing input**
 @Test
 public void testRevers
