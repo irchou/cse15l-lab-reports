@@ -1,5 +1,5 @@
 # Lab Report 4
-
+to delete directory do `rm -rf lab7`
 ## Step 4
 insert screenshot
 ```
