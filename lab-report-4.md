@@ -2,7 +2,7 @@
 to delete directory do `rm -rf lab7`
 ## Step 4
 ![Image](/images/Step4.png) 
-```
+Keys Pressed: ```
 ssh<space>irchou<shift+2>ieng6-201.ucsd.edu<enter>
 ```
 Explain stuff
