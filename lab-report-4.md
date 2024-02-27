@@ -6,7 +6,7 @@ to delete directory do `rm -rf lab7`
 Keys Pressed:
 ssh<space>irchou<shift+2>ieng6-201.ucsd.edu<enter>
 ```
-Explain stuff
+To log in to my ieng account, I typed the `ssh` command and my username before pressing `<enter>`.
 
 ## Step 5
 ![Image](/images/Step5.png) 
@@ -14,7 +14,7 @@ Explain stuff
 Keys Pressed:
 git<space>clone<space><ctrl+v><enter>
 ```
-Explain stuff
+The `git clone` command was used to clone the forked repository. I copied the ssh clone URL of the fork and pasted it after the `git clone` command using `ctrl+v`. 
 
 ## Step 6
 ![Image](/images/Step6.png) 
@@ -23,7 +23,7 @@ Keys Pressed:
 cd<space>l<tab><enter>
 bash<space>t<tab><enter>
 ```
-Explain stuff
+To run the tests, I first moved into the new directory containing the forked repo `/lab7` using `cd`. Since the only directory starting with 'l' was `lab7`, by tabbing after typing `cd l`, the terminal filled in the rest of the command with the `lab7` directory. Then, I ran the bash script `test.sh`. I again used `<tab>` to fill in `test.sh` after typing `bash t` because the only file starting with 't' in the working directory was `test.sh`.
 
 ## Step 7
 ![Image](/images/Step7a.png) 
