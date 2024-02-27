@@ -1,21 +1,21 @@
 # Lab Report 4
 to delete directory do `rm -rf lab7`
 ## Step 4
-insert screenshot
+![Image](/images/Step4.png) 
 ```
 ssh<space>irchou<shift+2>ieng6-201.ucsd.edu<enter>
 ```
 Explain stuff
 
 ## Step 5
-insert screenshot
+![Image](/images/Step5.png) 
 ```
 git<space>clone<space><ctrl+v><enter>
 ```
 Explain stuff
 
 ## Step 6
-insert screenshot
+![Image](/images/Step6.png) 
 ```
 cd<space>l<tab><enter>
 bash<space>t<tab><enter>
@@ -23,7 +23,8 @@ bash<space>t<tab><enter>
 Explain stuff
 
 ## Step 7
-insert screenshot
+![Image](/images/Step7a.png) 
+![Image](/images/Step7b.png) 
 ```
 vim<space><shift+l><tab>.<tab><enter>
 43j12li<backspace>2<escape><shift+;>wq<shift+1><enter>
@@ -31,14 +32,14 @@ vim<space><shift+l><tab>.<tab><enter>
 Explain stuff
 
 ## Step 8
-insert screenshot
+![Image](/images/Step8.png) 
 ```
 <up><up><enter>
 ```
 Explain stuff
 
 ## Step 9
-insert screenshot
+![Image](/images/Step9.png) 
 ```
 git<space>add<space><shift+l><tab><enter>
 git<space>commit<space>-m<space><shift+'>fix<space>bug<shift+'><enter>
