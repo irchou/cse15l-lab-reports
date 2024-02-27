@@ -51,4 +51,4 @@ git<space>add<space><shift+l><tab>.<tab><enter>
 git<space>commit<space>-m<space><shift+'>fix<space>bug<shift+'><enter>
 git<space>push<enter>
 ```
-First, I added the changes from the `ListExamples.java` file by using the `git add` command. I typed 'L' before pressing `<tab>` for it to autofill in the 'ListExamples' and then typed '.' before pressing `<tab>` again to fill in the rest of the `ListExamples.java`. Then, I used the `git commit` command to commit the added changes. I used the `-m` option to include the commit message when I wrote `"fix bug"` in. Lastly, I used the `git push` command to push the commit.
+First, I added the changes from the `ListExamples.java` file by using the `git add` command. I typed 'L' before pressing `<tab>` for it to autofill in the 'ListExamples' and then typed '.' before pressing `<tab>` again to fill in the rest of the `ListExamples.java`. Then, I used the `git commit` command to commit the added changes. I used the `-m` option to include the commit message where I wrote `"fix bug"` in. Lastly, I used the `git push` command to push the commit.
