@@ -5,6 +5,19 @@ This what my terminal shows after running `bash test.sh`. </br>
 ![Image](/images/bug.png) 
 
 Here's my file directory and the contents of potentially relevant files </br>
+**File directory**
+```
+lab7/
+|- lib/
+	|- hamcrest-core-1.3.jar
+	|- junit-4.13.2.jar
+|- ListExamples.class
+|- ListExamples.java
+|- ListExamplesTests.class
+|- ListExamplesTests.java
+|- StringChecker.class
+|- test.sh
+```
 **ListExamples.java**
 ```
 import java.util.ArrayList;
