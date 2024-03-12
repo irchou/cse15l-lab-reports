@@ -1,7 +1,7 @@
 # Lab Report 5
 ## Part 1
 Student: I'm testing my merge method for ListExamples, but I'm getting a timeout error for just one of the tests. 
-This what my terminal shows after running `bash test.sh`.
+This what my terminal shows after running `bash test.sh`. </br>
 ![Image](/images/bug.png) 
 Here's my file directory and the contents of potentially relevant files </br>
 **ListExamples.java**
