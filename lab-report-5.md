@@ -1,7 +1,7 @@
 # Lab Report 5
 ## Part 1
 ### Student
-Student: I'm testing my merge method for ListExamples, but I'm getting a timeout error for just one of the tests. Since this is a timeout error, I think the bug might have to do with wrong incrementing of the index variables. However, I double-checked my merge method and it seems like both index variables are being updated when they should be?
+Student: I'm testing my merge method for ListExamples, but I'm getting a timeout error for just one of the tests. Since this is a timeout error, I think the bug might have to do with wrong incrementing of the loop variables. However, I double-checked my merge method and it seems like both index variables are being updated when they should be?
 This what my terminal shows after running `bash test.sh`. </br>
 ![Image](/images/bug.png) 
 
@@ -98,5 +98,11 @@ public class ListExamplesTests {
 javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
 java -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" org.junit.runner.JUnitCore ListExamplesTests
 ```
+
+### TA
+TA: Yes, you are correct about the bug being caused by issues with the loop variables. You might want to check if the loop variables are guaranteed to be updated in each of the loops, more specifically ensure that the index variables are being incremented in each if-else branch of the loops.
+
+### Student
+Student: 
 
 ## Part 2
