@@ -5,7 +5,7 @@ Student: I'm testing my merge method for ListExamples, but I'm getting a timeout
 This what my terminal shows after running `bash test.sh`.  
 ![Image](/images/bug.png) 
 
-Here's my file directory and the contents of potentially relevant files  
+Here's my file directory and the contents of potentially relevant files:  
 **File directory**
 ```
 lab7/
