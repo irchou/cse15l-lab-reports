@@ -1,8 +1,10 @@
 # Lab Report 5
 ## Part 1
 Student: I'm testing my merge method for ListExamples, but I'm getting a timeout error for just one of the tests. 
-Here's my file directory and the contents of potentially relevant files.
-ListExamples.java
+This what my terminal shows after running `bash test.sh`.
+![Image](/images/bug.png) 
+Here's my file directory and the contents of potentially relevant files </br>
+**ListExamples.java**
 ```
 import java.util.ArrayList;
 import java.util.List;
@@ -52,7 +54,7 @@ class ListExamples {
 
 }
 ```
-ListExamplesTests.java
+**ListExamplesTests.java**
 ```
 import static org.junit.Assert.*;
 import org.junit.*;
@@ -76,7 +78,7 @@ public class ListExamplesTests {
 
 }
 ```
-test.sh
+**test.sh**
 ```
 javac -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" *.java
 java -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" org.junit.runner.JUnitCore ListExamplesTests
