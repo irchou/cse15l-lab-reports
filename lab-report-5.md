@@ -1,6 +1,6 @@
 # Lab Report 5
 ## Part 1
-**Student**: I'm testing my merge method for ListExamples, but I'm getting a timeout error for just one of the tests. 
+**Student**: I'm testing my merge method for ListExamples, but I'm getting a timeout error for just one of the tests. Since this is a timeout error, I think the bug might have to do with wrong incrementing of the index variables. However, I double-checked my merge method and it seems like both index variables are being updated when they should be?
 This what my terminal shows after running `bash test.sh`. </br>
 ![Image](/images/bug.png) 
 
