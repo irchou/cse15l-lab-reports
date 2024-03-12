@@ -103,7 +103,10 @@ java -cp ".;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar" org.junit.runner.JUn
 TA: Yes, you are correct about the bug being caused by issues with the loop variables. You might want to check if the loop variables are guaranteed to be updated in each of the loops, more specifically ensure that the index variables are being incremented in each if-else branch of the loops.
 
 ### Student
-Student: 
+Student: Thank you, I looked at the if-else statements in the first while loop of my merge method and realized that incrementing the index variables in the if and else if branches did not guarantee that an index variable would be updated because my conditions didn't catch the possibility of two strings being equal to each other. I fixed the bug by switching the else if statement into just an else branch, so that the loop variable would still be updated when `list1.get(index1).compareTo(list2.get(index2)) == 0`. My merge method now passes both tests. </br>
+![Image](/images/bugFixed.png)
+
+**ListExamples.java merge()**
 ```
 static List<String> merge(List<String> list1, List<String> list2) {
   List<String> result = new ArrayList<>();
