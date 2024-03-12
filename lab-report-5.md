@@ -135,3 +135,4 @@ static List<String> merge(List<String> list1, List<String> list2) {
 ```
 
 ## Part 2
+During the second half of this quarter, something knew I learned was how to use the Java debugger. This was particularly interesting to me because I'd heard of it prior to this class, but never learned how to actually use it. I found that being able to access variables from outside of the class itself very helpful because I no longer have to figure out where to put a bunch of print statements in multiple code files that I have to later clean up, and instead have access to these values all within the debugger.
